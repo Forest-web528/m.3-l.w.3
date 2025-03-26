@@ -1,0 +1,7 @@
+<nav>
+  <a routerLink="/home">Главная</a> |
+  <a [routerLink]="['/about', 42]">О нас (id=42)</a> |
+  <a routerLink="/contact">Контакты</a>
+</nav>
+
+<router-outlet></router-outlet> <!-- Место, куда подставляются компоненты -->
